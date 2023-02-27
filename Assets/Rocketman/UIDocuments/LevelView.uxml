@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Rocketman/USS/main.uss?fileID=7433441132597879392&amp;guid=241e71a03020c254283f42233474e530&amp;type=3#main" />
+    <ui:GroupBox name="topbar" picking-mode="Ignore" style="align-items: center; position: absolute; width: 60%; height: auto; left: 20%; right: 20%;">
+        <ui:VisualElement name="healthbar" picking-mode="Ignore" style="width: 60%; height: auto; margin-left: 50px; margin-right: 50px; margin-top: 50px; margin-bottom: 50px; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; transform-origin: left; scale: 1 1;">
+            <ui:VisualElement name="healthbar_background" style="background-color: rgb(255, 255, 255); flex-grow: 1; height: 50px;">
+                <ui:VisualElement name="healthbar_bar" class="border" style="background-color: rgb(255, 0, 0); flex-grow: 1; scale: 1 1; transform-origin: left; border-left-color: rgb(183, 0, 0); border-right-color: rgb(183, 0, 0); border-top-color: rgb(183, 0, 0); border-bottom-color: rgb(183, 0, 0);" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label text="Score: 0" display-tooltip-when-elided="true" name="label-score" picking-mode="Ignore" style="font-size: 55px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="sidebar-left" picking-mode="Ignore" style="align-items: stretch; position: absolute; flex-direction: column; width: 20%; justify-content: space-around; right: 80%; left: 0;" />
+    <ui:GroupBox name="sidebar-right" picking-mode="Ignore" style="align-items: stretch; position: absolute; flex-direction: column; width: 20%; justify-content: space-around; right: 0; left: 80%;">
+        <ButtonThatCanBeDisabled text="Pause" name="button-pause" class="button" style="width: auto; margin-left: 20px; margin-right: 20px; margin-top: 20px; margin-bottom: 20px; font-size: 50px;" />
+    </ui:GroupBox>
+    <ui:GroupBox name="bottombar" picking-mode="Ignore" style="align-items: stretch; position: absolute; flex-direction: row; justify-content: center; bottom: 0; width: 100%;">
+        <ButtonThatCanBeDisabled name="button-ultimate" style="width: 100px; height: 100px; background-image: url(&apos;project://database/Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/iconplastic.png?fileID=2800000&amp;guid=3042b019b052942a1baf7aa49d7ca6bb&amp;type=3#iconplastic&apos;); background-color: rgba(188, 188, 188, 0); margin-bottom: 96px; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+    </ui:GroupBox>
+</ui:UXML>
