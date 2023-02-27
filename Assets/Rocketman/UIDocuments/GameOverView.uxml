@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Rocketman/USS/main.uss?fileID=7433441132597879392&amp;guid=241e71a03020c254283f42233474e530&amp;type=3#main" />
+    <ui:GroupBox style="flex-grow: 1; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: center; align-items: center; background-color: rgba(0, 0, 0, 0.44);">
+        <ui:GroupBox class="menu">
+            <ui:Label text="Game Over" display-tooltip-when-elided="true" class="label" />
+            <ui:Button text="Retry" display-tooltip-when-elided="true" name="button-retry" class="button" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="button-exit" class="button" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

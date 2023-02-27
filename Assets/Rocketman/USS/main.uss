@@ -1,0 +1,54 @@
+.button {
+    font-size: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    background-color: rgb(5, 5, 5);
+    border-left-color: rgb(48, 48, 48);
+    border-right-color: rgb(48, 48, 48);
+    border-top-color: rgb(48, 48, 48);
+    border-bottom-color: rgb(48, 48, 48);
+    border-right-width: 0;
+    border-bottom-width: 14px;
+    border-left-width: 7px;
+    border-top-width: 0;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+}
+
+.menu {
+    background-color: rgb(29, 29, 29);
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 7px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 14px;
+}
+
+.label {
+    font-size: 85px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border {
+    border-left-width: 3px;
+    border-bottom-width: 5px;
+}
